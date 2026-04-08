@@ -1,0 +1,5 @@
+/cache/
+/export/
+*.yyp.bak
+*.resource_order
+local_settings.json
