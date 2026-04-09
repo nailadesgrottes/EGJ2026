@@ -6,6 +6,6 @@ down_key = ord("S")
 mspeed = 3;
 
 fire_cooldown = 0;
-fire_cooldown_max = 5;
+fire_cooldown_max = 20;
 
-
+bullet_speed = 10;
