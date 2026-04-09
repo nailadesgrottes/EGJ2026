@@ -8,6 +8,6 @@ mspeed = 3;
 fire_cooldown = 0;
 fire_cooldown_max = 20;
 
-bullet_speed = 10;
+bullet_speed = 20;
 
 angle = 0;
