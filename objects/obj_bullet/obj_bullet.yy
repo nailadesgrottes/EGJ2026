@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_bullet",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_bullet_collisions","path":"objects/par_bullet_collisions/par_bullet_collisions.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bullet",
   "overriddenProperties":[],
