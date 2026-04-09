@@ -12,17 +12,25 @@ var y_moveAmount = vert_movement*mspeed;
 // Horizontal collisions 
 if !place_meeting(x+x_moveAmount, y, par_wall) {
 	x+=x_moveAmount;
+} else {
+	while(!place_meeting(x+sign(x_moveAmount), y, par_wall)){
+		x+=sign(x_moveAmount);
+	}
 }
 
 // Vertical collisions 
 if !place_meeting(x, y+y_moveAmount, par_wall) {
 	y+=y_moveAmount;
+} else {
+	while(!place_meeting(x, y+sign(y_moveAmount), par_wall)){
+		y+=sign(y_moveAmount);
+	}
 }
 
 // Rotation code
 
 var angle_to_mouse = point_direction(x, y, mouse_x, mouse_y);
-image_angle = angle_to_mouse;
+angle = angle_to_mouse;
 
 // Bullet firing
 
