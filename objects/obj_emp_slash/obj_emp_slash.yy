@@ -1,7 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_emp_slash",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_bullet_collisions","path":"objects/par_bullet_collisions/par_bullet_collisions.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_slash_collisions","path":"objects/par_slash_collisions/par_slash_collisions.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":59,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_emp_slash",
   "overriddenProperties":[],
@@ -9,7 +15,10 @@
     "name":"attack_objects",
     "path":"folders/Objects/attack_objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_emp_slash_collisions",
+    "path":"objects/par_emp_slash_collisions/par_emp_slash_collisions.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_emp_slash",
+    "path":"sprites/spr_emp_slash/spr_emp_slash.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

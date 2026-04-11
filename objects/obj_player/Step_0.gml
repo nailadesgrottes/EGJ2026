@@ -43,6 +43,9 @@ if (mouse_check_button(mb_left)) {
 		fire_cooldown = fire_cooldown_max;
 	}
 }
+
+// Slash firing (temporary)
+
 else if (mouse_check_button(mb_right)) {
 	if fire_cooldown <= 0 {
 		var s = instance_create_depth(x, y, 5, obj_slash);
@@ -54,7 +57,38 @@ else if (mouse_check_button(mb_right)) {
 	}
 }
 
-// Slash firing (temporary)
+// Empowered slash firing
+
+else if (keyboard_check_pressed(vk_space)) {
+	if fire_cooldown <= 0 {
+		var emp_s = instance_create_depth(x, y, 5, obj_emp_slash);
+		emp_s.direction = point_direction(x, y, mouse_x, mouse_y);
+		emp_s.image_angle = emp_s.direction;
+		fire_cooldown = fire_cooldown_max;
+		
+	}
+}
+
+// Empowered bullet firing
+
+else if (keyboard_check(emp_slash_key)) {
+	if fire_cooldown <= 0 {
+		
+		
+	for (var i = 0; i <= 315; i += 45){
+		var emp_b = instance_create_depth(x, y, 5, obj_emp_bullet);
+		emp_b.direction = i;
+		emp_b.speed = bullet_speed;
+		emp_b.image_angle = emp_b.direction;
+		fire_cooldown = fire_cooldown_max;
+	}
+		
+		
+		
+	}
+}
+
+
 
 
 if fire_cooldown > 0 {

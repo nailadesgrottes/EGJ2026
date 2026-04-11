@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_emp_bullet",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_bullet_collisions","path":"objects/par_bullet_collisions/par_bullet_collisions.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_emp_bullet",
   "overriddenProperties":[],
@@ -9,10 +12,7 @@
     "name":"attack_objects",
     "path":"folders/Objects/attack_objects.yy",
   },
-  "parentObjectId":{
-    "name":"par_emp_bullets_collisions",
-    "path":"objects/par_emp_bullets_collisions/par_emp_bullets_collisions.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_emp_bullets",
+    "path":"sprites/spr_emp_bullets/spr_emp_bullets.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

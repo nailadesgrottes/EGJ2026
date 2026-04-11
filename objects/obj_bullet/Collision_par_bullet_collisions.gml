@@ -1,1 +1,1 @@
-other.f_hit(id, damage)
+other.b_hit(id, damage)

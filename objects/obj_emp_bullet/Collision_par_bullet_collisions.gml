@@ -1,0 +1,1 @@
+other.b_hit(id, damage)

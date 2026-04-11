@@ -1,0 +1,1 @@
+other.s_hit(id, _damage);
