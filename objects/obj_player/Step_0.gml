@@ -9,6 +9,20 @@ vert_movement = keyboard_check(down_key)-keyboard_check(up_key);
 var x_moveAmount = hor_movement*mspeed;
 var y_moveAmount = vert_movement*mspeed;
 
+
+if (keyboard_check(left_key)) {
+	sprite_index = spr_player_left
+} else if (keyboard_check(right_key)) {
+	sprite_index = spr_player_right 
+}  else if (keyboard_check(up_key)) {
+	sprite_index = spr_player_back 
+}  else if (keyboard_check(down_key)) {
+	sprite_index = spr_player_idle 
+} 
+
+
+// Replace your sprite block with this:
+
 // Horizontal collisions 
 if !place_meeting(x+x_moveAmount, y, par_wall) {
 	x+=x_moveAmount;
@@ -30,7 +44,7 @@ if !place_meeting(x, y+y_moveAmount, par_wall) {
 // Rotation code
 
 var angle_to_mouse = point_direction(x, y, mouse_x, mouse_y);
-angle = angle_to_mouse;
+//angle = angle_to_mouse;
 
 // Bullet firing
 
