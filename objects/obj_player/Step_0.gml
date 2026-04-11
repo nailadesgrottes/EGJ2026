@@ -43,17 +43,19 @@ if (mouse_check_button(mb_left)) {
 		fire_cooldown = fire_cooldown_max;
 	}
 }
-
-// Slash firing (temporary)
-if (mouse_check_button(mb_right)) {
+else if (mouse_check_button(mb_right)) {
 	if fire_cooldown <= 0 {
 		var s = instance_create_depth(x, y, 5, obj_slash);
-		s.speed = bullet_speed;
 		s.direction = point_direction(x, y, mouse_x, mouse_y);
+		s.speed = slash_speed;
 		s.image_angle = s.direction;
 		fire_cooldown = fire_cooldown_max;
+		
 	}
 }
+
+// Slash firing (temporary)
+
 
 if fire_cooldown > 0 {
 	fire_cooldown--;

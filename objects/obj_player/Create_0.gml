@@ -9,5 +9,6 @@ fire_cooldown = 0;
 fire_cooldown_max = 20;
 
 bullet_speed = 20;
+slash_speed = 1;
 
 angle = 0;

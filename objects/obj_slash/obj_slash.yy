@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"obj_slash",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_slash_collisions","path":"objects/par_slash_collisions/par_slash_collisions.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_slash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"attack_objects",
+    "path":"folders/Objects/attack_objects.yy",
   },
   "parentObjectId":{
-    "name":"par_bullet_collisions",
-    "path":"objects/par_bullet_collisions/par_bullet_collisions.yy",
+    "name":"par_slash_collisions",
+    "path":"objects/par_slash_collisions/par_slash_collisions.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

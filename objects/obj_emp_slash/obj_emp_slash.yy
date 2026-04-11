@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hpcookie",
+  "%Name":"obj_emp_slash",
   "eventList":[],
   "managed":true,
-  "name":"obj_hpcookie",
+  "name":"obj_emp_slash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"attack_objects",
+    "path":"folders/Objects/attack_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"half_eaten_cookie",
-    "path":"sprites/half_eaten_cookie/half_eaten_cookie.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
