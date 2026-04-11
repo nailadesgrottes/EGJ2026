@@ -1,0 +1,1 @@
+audio_play_sound(snd_bludsuckas , 0, true)

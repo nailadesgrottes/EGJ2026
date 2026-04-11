@@ -29,7 +29,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Bludsuckas WIP 2.m4a","CopyToMask":-1,"filePath":"datafiles","name":"Bludsuckas WIP 2.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -39,6 +41,7 @@
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_button_end","path":"objects/obj_button_end/obj_button_end.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
@@ -58,6 +61,11 @@
     {"id":{"name":"rm_end_game","path":"rooms/rm_end_game/rm_end_game.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"id":{"name":"snd_bludsuckas","path":"sounds/snd_bludsuckas/snd_bludsuckas.yy",},},
+    {"id":{"name":"snd_bullet","path":"sounds/snd_bullet/snd_bullet.yy",},},
+    {"id":{"name":"snd_em_bullet","path":"sounds/snd_em_bullet/snd_em_bullet.yy",},},
+    {"id":{"name":"snd_em_slash","path":"sounds/snd_em_slash/snd_em_slash.yy",},},
+    {"id":{"name":"snd_slash","path":"sounds/snd_slash/snd_slash.yy",},},
     {"id":{"name":"half_eaten_cookie","path":"sprites/half_eaten_cookie/half_eaten_cookie.yy",},},
     {"id":{"name":"mask_player","path":"sprites/mask_player/mask_player.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},

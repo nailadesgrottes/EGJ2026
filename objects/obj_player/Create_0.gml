@@ -2,10 +2,10 @@ left_key = ord("A")
 right_key = ord("D")
 up_key = ord("W")
 down_key = ord("S")
-emp_slash_key = ord("Q")
+emp_bullet_key = ord("Q")
 
 mspeed = 3;
-player_hp = 2;
+player_hp = 50;
 
 fire_cooldown = 0;
 fire_cooldown_max = 20;
